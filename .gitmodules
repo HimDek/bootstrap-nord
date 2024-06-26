@@ -1,0 +1,6 @@
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/twbs/bootstrap.git
+[submodule "nord"]
+	path = nord
+	url = https://github.com/nordtheme/nord.git
