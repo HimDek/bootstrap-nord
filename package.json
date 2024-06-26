@@ -10,7 +10,7 @@
   "main": "main.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass src/main.scss build/main.css"
+    "build": "npm link bootstrap-nord & sass node_modules/bootstrap-nord/src/main.scss build/main.css"
   },
   "repository": {
     "type": "git",
