@@ -34,7 +34,7 @@ jobs:
       - run: npm install
       - name: Update package.json name
         run: sed -i '2,2s/node-sql-parser/@HimDek\/node-sql-parser/g' package.json
-      - run: echo registry=https://npm.pkg.github.com/taozhi8833998 >> .npmrc
+      - run: echo registry=https://npm.pkg.github.com/HimDek >> .npmrc
       - run: npm run build
       - run: cd output/prod && npm publish
         env:
