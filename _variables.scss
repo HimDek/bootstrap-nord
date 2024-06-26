@@ -1,0 +1,24 @@
+@import "./node_modules/nord/src/sass/nord.scss";
+
+$accent: $nord8;
+$primary: $nord10;
+$secondary: $nord9;
+$success: $nord14;
+$warning: $nord13;
+$danger: $nord11;
+
+$accent-text-emphasis: shade-color($accent, 60%);
+
+$accent-bg-subtle: tint-color($accent, 80%);
+
+$accent-border-subtle: tint-color($accent, 60%);
+
+$accent-text-emphasis-dark: tint-color($accent, 40%);
+
+$accent-bg-subtle-dark: shade-color($accent, 80%);
+
+$accent-border-subtle-dark: shade-color($accent, 40%);
+
+$body-bg: $nord6;
+
+$body-bg-dark: $nord0;
