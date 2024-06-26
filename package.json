@@ -1,15 +1,16 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "nord": "^0.2.1"
+    "nord": "^0.2.1",
+    "sass": "^1.77.6"
   },
   "name": "bootstrap-nord",
   "version": "1.0.0",
   "description": "A Bootstrap Distribution following the Nord Theme Color Palatte",
   "main": "main.scss",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/main.scss build/main.css"
   },
   "repository": {
     "type": "git",
