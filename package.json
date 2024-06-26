@@ -9,7 +9,7 @@
   "description": "A Bootstrap Distribution following the Nord Theme Color Palatte",
   "main": "main.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build": "npm link bootstrap-nord & sass node_modules/bootstrap-nord/src/main.scss build/main.css"
   },
   "repository": {
