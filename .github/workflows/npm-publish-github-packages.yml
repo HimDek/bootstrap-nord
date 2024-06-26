@@ -30,7 +30,12 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-      - name: Authenticate with GitHub Packages
-        run: echo "//npm.pkg.github.com/:_authToken=\${{ secrets.GH_TOKEN }}" > ~/.npmrc
-      - run: npm ci
-      - run: npm publish --registry https://npm.pkg.github.com/
+          scope: '@HimDek'
+      - run: npm install
+      - name: Update package.json name
+        run: sed -i '2,2s/node-sql-parser/@HimDek\/node-sql-parser/g' package.json
+      - run: echo registry=https://npm.pkg.github.com/taozhi8833998 >> .npmrc
+      - run: npm run build
+      - run: cd output/prod && npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GH_TOKEN}}
