@@ -5,12 +5,12 @@
     "sass": "^1.77.6"
   },
   "name": "bootstrap-nord",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A Bootstrap Distribution following the Nord Theme Color Palatte",
   "main": "main.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "npm link bootstrap-nord & sass node_modules/bootstrap-nord/src/main.scss dist/main.css"
+    "build": "npm link bootstrap-nord & sass node_modules/bootstrap-nord/src/main.scss dist/bootstrap-nord.css"
   },
   "repository": {
     "type": "git",
