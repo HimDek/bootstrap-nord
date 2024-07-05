@@ -5,7 +5,7 @@
     "sass": "^1.77.6"
   },
   "name": "bootstrap-nord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Bootstrap Distribution following the Nord Theme Color Palatte",
   "main": "main.scss",
   "scripts": {
