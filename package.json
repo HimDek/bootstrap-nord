@@ -1,11 +1,13 @@
 {
-  "devDependencies": {
+  "dependencies": {
     "bootstrap": "^5.3.3",
-    "nord": "^0.2.1",
+    "nord": "^0.2.1"
+  },
+  "devDependencies": {
     "sass": "^1.77.6"
   },
   "name": "bootstrap-nord",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A Bootstrap Distribution following the Nord Theme Color Palatte",
   "main": "main.scss",
   "scripts": {
